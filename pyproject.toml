@@ -21,3 +21,6 @@ vibekit = "vibekit.cli:main"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.hatchling]
+path = "vibekit"
