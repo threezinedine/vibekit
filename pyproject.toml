@@ -21,12 +21,3 @@ vibekit = "vibekit.cli:main"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-
-[tool.uv]
-package = false   # root is a virtual workspace, not a real package
-
-[tool.uv.workspace]
-members = ["tests"]
-
-[tool.hatchling]
-path = "src/vibekit"
