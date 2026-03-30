@@ -16,7 +16,7 @@ dev = [
 ]
 
 [project.scripts]
-vibekit = "vibekit.cli:main"
+vibekit = "vibekit:main"
 
 [build-system]
 requires = ["hatchling"]

@@ -1,6 +1,6 @@
 import os
-from prompts import prompts
-from templates import templates
+from vibekit.prompts import prompts
+from vibekit.templates import templates
 
 
 def generate_vibekit():
